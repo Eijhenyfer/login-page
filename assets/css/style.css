@@ -13,7 +13,7 @@
 }
 
 body, html{
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     width: 100vw;
     height: 100vh;
 }
@@ -33,9 +33,11 @@ section#login{
 
     background-color: white;
     border-radius: 20px;
-    width: 250px;
+    width: 300px;
     height: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.432);
+    transition: width .4 height .4;
+    -o-transition-timing-function: ease;
 }
 
 section#login div#imagem{
